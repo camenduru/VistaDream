@@ -20,8 +20,8 @@ class HackSD_MCS():
         step denoise
     '''
     def __init__(self,device='cpu',use_lcm=True,denoise_steps=20,
-                 sd_ckpt=f'tools/StableDiffusion/ckpt',
-                 lcm_ckpt=f'latent-consistency/lcm-lora-sdv1-5') -> None:
+                 sd_ckpt=f'/content/VistaDream/tools/StableDiffusion/ckpt',
+                 lcm_ckpt=f'/content/VistaDream/tools/StableDiffusion/lcm_ckpt') -> None:
         '''
         ref_rgb should be -1~1 tensor B*3*H*W
         '''

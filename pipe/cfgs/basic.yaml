@@ -8,7 +8,7 @@ model:
       yaml: 'tools/OneFormer/configs/ade20k/dinat/coco_pretrain_oneformer_dinat_large_bs16_160k_1280x1280.yaml'
   vlm:
     llava:
-      ckpt: 'llava-hf/bakLlava-v1-hf' # downloaded from hugging face
+      ckpt: '/content/VistaDream/tools/bakLlava' # downloaded from hugging face
   mde:
     dpt_pro:
       ckpt: 'tools/DepthPro/checkpoints/depth_pro.pt'
