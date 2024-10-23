@@ -11,7 +11,7 @@ model:
       ckpt: 'llava-hf/bakLlava-v1-hf' # downloaded from hugging face
   mde:
     dpt_pro:
-      ckpt: tools/DepthPro/checkpoints/depth_pro.pt'
+      ckpt: 'tools/DepthPro/checkpoints/depth_pro.pt'
   paint:
     fooocus:
       pass # it will load required checkpoints automaticly
